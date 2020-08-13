@@ -8,7 +8,7 @@ import { connect } from 'react-redux';
 import qs from 'qs';
 
 import LoadMoreList from 'Components/LoadMoreList/LoadMoreList';
-import ImagePreviewListItem from 'Components/ListItem/ImagePreview';
+import ListItemImagePreview from 'Components/ListItem/ImagePreview';
 
 // redux actions
 import { getCatBreeds, getCats, setCatsFilter } from 'Actions';
@@ -69,7 +69,7 @@ class CatsList extends Component {
         </Row>
         <LoadMoreList
           onItem={(cat) => {
-            return <ImagePreviewListItem
+            return <ListItemImagePreview
               imgSrc={cat.url}
               btnText="View Details"
               btnLink={`/${cat.id}`}

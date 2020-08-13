@@ -1,6 +1,7 @@
 /**
  * Selectors for Saga 
  */
+ 
 export const getCatsQueryArgs = (state) => {
   const { cat } = state;
 

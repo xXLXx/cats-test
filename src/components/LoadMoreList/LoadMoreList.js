@@ -6,7 +6,6 @@ import {
 } from 'react-bootstrap';
 
 class LoadMoreList extends Component {
-
   render() {
     const { items, onItem, emptyMessage, lastPage, isLoading, loadingText, onLoadMore } = this.props;
 

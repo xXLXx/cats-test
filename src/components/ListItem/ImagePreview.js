@@ -4,7 +4,7 @@ import {
   Button
 } from 'react-bootstrap';
 
-class ImageCard extends Component {
+class ListItemImagePreview extends Component {
   render() {
     const { imgSrc, btnLink, btnText } = this.props;
 
@@ -12,11 +12,11 @@ class ImageCard extends Component {
       <Card className="mb-4">
         <Card.Img variant="top" src={imgSrc} />
         <Card.Body>
-          <Button variant="primary" href={ btnLink } block>{ btnText }</Button>
+          <Button variant="primary" href={btnLink} block>{ btnText }</Button>
         </Card.Body>
       </Card>
     );
   }
 }
 
-export default ImageCard;
+export default ListItemImagePreview;
