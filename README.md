@@ -12,7 +12,7 @@ This project is for testing purposes only as a demo for the use of the following
 
 1. Create an `.env.local` file in the project directory
 2. Copy all contents of the existing `.env` file to your `.env.local`.
-3. Set `REACT_APP_CATS_API_KEY` to your Cats API key.
+3. Set `REACT_APP_CATS_API_KEY` to your Cats API key.<br/>
 **If you don’t have one, just head over to [https://thecatapi.com/](https://thecatapi.com/) and get one for free**
 
 ## Bon Voyage
